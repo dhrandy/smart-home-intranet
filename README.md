@@ -17,7 +17,11 @@ This was also kind of a challenge for myself.  I wanted to completely write the 
 ## Pages ##
 - index.html - Gives an overall view of the additional pages and a small amount of info.  It also contains links to the additional pages.
 - alexa.html - Infomation about Alexa and the Echo devices.
-- alexa-lights.html
+- alexa-lights.html - Additional commands for the light colors.
+- entertainment.html - Firestick Alexa commands information.
+- smartthings.html - Information about the smart home hub.
+- security.html - Camera Security information.
+- other.html - Additonal smart home information that doesn't fit into the other groups.
 
 ## Technologies Used
 
