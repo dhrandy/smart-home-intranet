@@ -1,106 +1,142 @@
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Medium.ttf") format("tff");
-}
-
-.jumbotron {
-    background-image: url('../imgs/BG.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 55vh;
-    color: white;
-}
-
-
-/* div.jumbotron {
+    @font-face {
+        font-family: "Roboto";
+        src: url("../fonts/Roboto-Medium.ttf") format("tff");
+    }
+    
+    .jumbotron {
+        background-image: url('../imgs/BG.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55vh;
+        color: white;
+    }
+    /* div.jumbotron {
     padding-bottom: 30px;
     margin-bottom: 0;
 } */
-
-.my-4 {
-    width: 300px;
-    text-align: left;
-    margin-left: 0
-}
-
-.display-4 {
-    padding-top: 20px;
-    font-family: 'Roboto', Arial, sans-serif;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.row {
-    padding: 15px;
-}
-
-.smart {
-    width: 300px;
-}
-
-.container {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.more-marg {
-    margin-bottom: 100px;
-}
-
-.h-2 {
-    font-size: 25px;
-}
-
-.col-img {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.smart-app {
-    display: block;
-    width: 250px;
-}
-
-@media only screen and (min-width: 850px) {
-    .mobile-image {
-        display: none;
+    
+    .small-font {
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        ;
     }
-}
-
-@media only screen and (max-width: 850px) {
-    .more-marg {
-        margin-bottom: 5px;
+    
+    img {
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
-    .desktop-image {
-        display: none;
+    
+    ul {
+        margin-bottom: 40px !important;
     }
+    
+    .youtube {
+        margin-bottom: 20px;
+        ;
+    }
+    
+    .btn-primary {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .my-4 {
+        width: 300px;
+        text-align: left;
+        margin-left: 0
+    }
+    
+    .display-4 {
+        padding-top: 20px;
+        font-family: 'Roboto', Arial, sans-serif;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .row {
+        padding: 15px;
+    }
+    
     .smart {
-        width: 220px;
+        width: 300px;
     }
-    .alexa-img {
-        width: 220px;
+    
+    .container {
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
-    .sec-img {
-        width: 180px;
+    
+    .more-marg {
+        margin-bottom: 100px;
     }
-    .center {
+    
+    .h-2 {
+        font-size: 25px;
+    }
+    
+    .col-img {
         text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
-    .mobile-container {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .echo1,
-    .echo-fam {
-        width: 100%;
+    
+    .smart-app {
+        display: block;
+        width: 250px;
         height: auto;
     }
-    .smart-app {
-        margin-left: auto;
-        margin-right: auto;
+    
+    .echo-fam {
+        margin-bottom: 20px;
     }
-}
+    
+    .button {
+        margin: 0;
+    }
+    
+    @media only screen and (min-width: 900px) {
+        .mobile-image {
+            display: none;
+        }
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .more-marg {
+            margin-bottom: 5px;
+        }
+        .desktop-image {
+            display: none;
+        }
+        .smart {
+            width: 220px;
+        }
+        .alexa-img {
+            width: 220px;
+        }
+        .sec-img {
+            width: 180px;
+        }
+        .center {
+            text-align: center;
+        }
+        .mobile-container {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .echo1 {
+            width: 90%;
+            height: auto;
+        }
+        .echo-fam {
+            width: 90%;
+            height: auto;
+        }
+        .smart-app {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
