@@ -2,7 +2,7 @@
 
 ## The What? ##
 
-What's this exciting new project you're working on you ask?  Glad you did, this is a smart home intanet site.  For anyone that doens't know intranet is where the site is on an internal network.  I am accessing this site from my house and no-one has access to the site outside my house.
+What's this exciting new project you're working on you ask?  Glad you did, this is a smart home intranet site.  For anyone that doesn't know intranet is where the site is on an internal network.  I am accessing this site from my house and no-one has access to the site outside my house.
 
 The site itself is just a simple site that gives details about my smart home.  
 
@@ -20,12 +20,12 @@ You'll need a server or computer to set this up to be available all the time. I 
 
 ## Pages ##
 - index.html - Gives an overall view of the additional pages and a small amount of info.  It also contains links to the additional pages.
-- alexa.html - Infomation about Alexa and the Echo devices.
+- alexa.html - Information about Alexa and the Echo devices.
 - alexa-lights.html - Additional commands for the light colors.
 - entertainment.html - Firestick Alexa commands information.
 - smartthings.html - Information about the smart home hub.
 - security.html - Camera Security information.
-- other.html - Additonal smart home information that doesn't fit into the other groups.
+- other.html - Additional smart home information that doesn't fit into the other groups.
 
 ## Technologies Used
 
