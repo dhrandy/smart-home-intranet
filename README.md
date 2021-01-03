@@ -16,7 +16,8 @@ This was also kind of a challenge for myself.  I wanted to completely write the 
 
 ## Setup ##
 
-You'll need a server or computer to set this up to be available all the time. I used my Minecraft server, which is just a computer running Windows 10.  You'll need to install something to host the site with, used XAMPP.  Within XAMPP you'll have to enable Apache.  You'll also need to copy the files to the folder located at C:\xampp\htdocs\dashboard.  You'll then want to change the computer name to something easy to type into the browser.  You should open the port for your webpage to get through the firewall of the computer.  Default port is 80.  You can use Google if you don't know how to do that, it's pretty simple.  When all that's done you'll want to start the Apache server, to do this simply open the XAMPP software and click start beside Apache.  Now navigate to the IP or URL.  For example, if you named your computer server, then you'd navigate to server:80 in  your browser.
+You'll need a server or computer to set this up to be available all the time. I used my Minecraft server, which is just a computer running Windows 10.  You'll need to install something to host the site with, I used a service built into Windows 10 called IIS server (Internet Information Services server).
+You'll also need to copy the files to the folder located at C:\inetpub\wwwroot. You should open the port for your webpage to get through the firewall of the computer (not the router, you don't won't this outside your local area network).  Default port is 80.  You can use Google if you don't know how to do that, it's pretty simple. Now navigate to the IP address of your server and port with a browser, for example 192.168.1.2:80.  
 
 ## Pages ##
 - index.html - Gives an overall view of the additional pages and a small amount of info.  It also contains links to the additional pages.
@@ -32,8 +33,6 @@ You'll need a server or computer to set this up to be available all the time. I 
 - HTML 5
 - CSS
 - Bootstrap CSS
-- Xampp
-- Apache
 
 ## Software Used
 - VS Code
