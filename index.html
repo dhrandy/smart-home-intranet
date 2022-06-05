@@ -10,10 +10,50 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="jumbotron">
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alexa.html">Alexa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="smartthings.html">SmartThings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="security.html">Security</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="other.html">Other</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <div class="container">
         <div class="row d-flex more-marg">
@@ -21,8 +61,9 @@
                 <img src="./assets/imgs/alexa.png" alt="" class="alexa-img">
             </div>
             <div class="col-sm">
-                <p class="bold h-2">Alexa - Voice Control</p>
-                <p>Alexa allows us to have voice control over the smart devices in the home. She's a personal assistant that not only can turn on lights, but can give tons of information.</p>
+                <p class="bold h-2" id="alexa">Alexa - Voice Control</p>
+                <p>Alexa allows us to have voice control over the smart devices in the home. She's a personal assistant
+                    that not only can turn on lights, but can give tons of information.</p>
                 <a href="./alexa.html"><button type="button" class="btn btn-primary">Alexa Commands</button></a>
             </div>
             <div class="col-sm col-img desktop-image">
@@ -36,8 +77,9 @@
                 <img src="./assets/imgs/smartthings.png" alt="" class="smart">
             </div>
             <div class="col-sm">
-                <p class="bold h-2">SmartThings - Central Hub</p>
-                <p>The SmartThings Hub is what ties most the smart devices in the house together. This is actually what's controlling all the lights and switches.</p>
+                <p class="bold h-2" id="smartthings">SmartThings - Central Hub</p>
+                <p>The SmartThings Hub is what ties most the smart devices in the house together. This is actually
+                    what's controlling all the lights and switches.</p>
                 <a href="./smartthings.html"><button type="button" class="btn btn-primary">SmartThings</button></a>
             </div>
         </div>
@@ -48,8 +90,9 @@
                 <img src="./assets/imgs/security.png" alt="" class="sec-img">
             </div>
             <div class="col-sm">
-                <p class="bold h-2">Safety and Security</p>
-                <p>Not only do we have smart-home control, we also have security, cameras, and front door lock. Cameras include Canary, Arlo, and Wyze cameras.</p>
+                <p class="bold h-2" id="security">Safety and Security</p>
+                <p>Not only do we have smart-home control, we also have security, cameras, and front door lock. Cameras
+                    include Canary, Arlo, and Wyze cameras.</p>
                 <a href="./security.html"><button type="button" class="btn btn-primary">Security</button></a>
             </div>
             <div class="col-sm col-img desktop-image">
@@ -63,9 +106,11 @@
                 <img src="./assets/imgs/tv.jpeg " alt=" ">
             </div>
             <div class="col-sm ">
-                <p class="bold h-2 ">Entertainment</p>
-                <p>There are several different smart devices used for enterainment in our house. We have the Fire TV devices, Fire TV Recast, and Echo devices.</p>
-                <a href="./entertainment.html"><button type="button " class="btn btn-primary ">Entertainment</button></a>
+                <p class="bold h-2" id="entertainment">Entertainment</p>
+                <p>There are several different smart devices used for enterainment in our house. We have the Fire TV
+                    devices, Fire TV Recast, and Echo devices.</p>
+                <a href="./entertainment.html"><button type="button "
+                        class="btn btn-primary ">Entertainment</button></a>
             </div>
         </div>
     </div>
@@ -75,8 +120,9 @@
                 <img src="./assets/imgs/samsung.jpeg" alt="" class="sec-img">
             </div>
             <div class="col-sm ">
-                <p class="bold h-2 ">Other Smart Devices</p>
-                <p>The SmartThings hub controls most of the smart devices in the house, but there are a few things not controlled by it.</p>
+                <p class="bold h-2" id="other">Other Smart Devices</p>
+                <p>The SmartThings hub controls most of the smart devices in the house, but there are a few things not
+                    controlled by it.</p>
                 <a href="./other.html"><button type="button " class="btn btn-primary ">Other</button></a>
             </div>
             <div class="col-sm col-img desktop-image">
